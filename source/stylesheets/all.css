@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body {
+  background: #ffffff;
+  text-align: center;
+  font-family: sans-serif; }
+
+h1 {
+  color: rgba(0,0,0,0.7);
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: -1px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  background: url("../images/logo_mini.png") no-repeat center 0px;
+  padding: 110px 0 10px;
+  margin: 0; 
+  margin-top:50px;
+}
+
+ul.list{
+  margin-top:30px;
+  list-style:none;
+}
+
+ul.list li{
+  height:40px;
+  line-height:40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+footer{
+  margin-top:80px;
+  margin-bottom:30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  color:rgba(0,0,0,0.4);
+  
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+.text{
+  padding-top:10px;
+}
